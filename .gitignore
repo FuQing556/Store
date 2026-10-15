@@ -1,0 +1,13 @@
+node_modules/
+dist/
+delivery/
+artifacts/
+*.log
+*.zip
+Target/
+assets/restaurant-board.png
+docs/*
+!docs/DESIGN.md
+!docs/ACCEPTANCE.md
+!docs/ART.md
+!docs/AUDIO.md

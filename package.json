@@ -1,0 +1,16 @@
+{
+  "name": "baiwei-restaurant-demo",
+  "version": "1.1.0",
+  "private": true,
+  "description": "百味饭馆 · 可离线运行的经营游戏",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "dev": "node scripts/serve.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.cjs",
+    "verify": "node scripts/verify-build.cjs",
+    "package": "node scripts/package.cjs",
+    "audio:build": "node scripts/synthesize-audio.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
